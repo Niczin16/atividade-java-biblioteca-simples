@@ -26,7 +26,7 @@ public class LivroFisico extends Livro{
 
     @Override
     public void descricao() {
-        System.out.println("");
+        super.descricao();
     }    
     
 }

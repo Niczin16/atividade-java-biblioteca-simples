@@ -29,4 +29,12 @@ public class Biblioteca {
       
     }
     
+    public Livro buscarLivroTitulo(String titulo){
+        for (Livro lLivro : livros){
+            if (lLivro.getTitulo().equalsIgnoreCase(titulo)){
+                return lLivro;
+            }
+        }
+        return null;
+    }    
 }

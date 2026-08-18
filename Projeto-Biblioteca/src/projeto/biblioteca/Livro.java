@@ -34,11 +34,15 @@ public class Livro {
     }
 
     public void setNumeroPaginas(Integer NumeroPaginas) {
-        this.NumeroPaginas = NumeroPaginas;
+        this.NumeroPaginas = NumeroPaginas;    
     }
     
     public void descricao(){
-        System.out.print("Livro avulso"); 
+        System.out.print(
+                "\n O livro se chama: "  + Titulo +
+                ", o autor é: "          + Autor + 
+                ", ele tem "             + NumeroPaginas + "páginas!"
+        ); 
     }
     
 }
