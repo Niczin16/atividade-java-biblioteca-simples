@@ -27,14 +27,14 @@ public class ProjetoBiblioteca {
         if (biblioteca.buscarLivroTitulo("The Little Prince") == null){
             System.out.println("Nao foi possivel encontrar o livro");
         }else{
-            System.out.println(biblioteca.buscarLivroTitulo("The Little Prince"));
+            System.out.println( "Livro encontrado: " + biblioteca.buscarLivroTitulo("The Little Prince"));
         }
         
         //Não vai encontrar
         if (biblioteca.buscarLivroTitulo("Mais esperto que o Diabo!") == null){
             System.out.println("Nao foi possivel encontrar o livro");
         }else{
-            System.out.println(biblioteca.buscarLivroTitulo("Mais esperto que o Diabo!"));
+            System.out.println("Livro encontrado: " + biblioteca.buscarLivroTitulo("Mais esperto que o Diabo!"));
         }
                         
         System.out.println(" \n\n\n ---Lista de livros--- \n");
