@@ -22,7 +22,7 @@ public class Biblioteca {
         System.out.println(" \n Livro adicionado com sucesso!");        
     }
     
-    public void listarLivros(Livro livro){
+    public void listarLivros(){
         for (Livro lLivro : livros ){
             lLivro.descricao();
         }

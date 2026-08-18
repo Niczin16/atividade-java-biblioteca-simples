@@ -26,7 +26,14 @@ public class LivroFisico extends Livro{
 
     @Override
     public void descricao() {
-        super.descricao();
+               System.out.print(
+                " \n O livro se chama: " + getTitulo()        +
+                ", o autor e: "          + getAutor()         + 
+                ", ele tem "             + getNumeroPaginas() + 
+                "paginas!"                                    +
+                ", ele e um livro fisico com um peso de: "    + 
+                getPeso()
+        ); 
     }    
     
 }

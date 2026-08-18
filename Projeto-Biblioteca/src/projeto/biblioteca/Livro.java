@@ -39,9 +39,10 @@ public class Livro {
     
     public void descricao(){
         System.out.print(
-                "\n O livro se chama: "  + Titulo +
-                ", o autor é: "          + Autor + 
-                ", ele tem "             + NumeroPaginas + "páginas!"
+                "  O livro se chama: "   + Titulo        +
+                ", o autor e: "          + Autor         + 
+                ", ele tem "             + NumeroPaginas +
+                "paginas!"
         ); 
     }
     
